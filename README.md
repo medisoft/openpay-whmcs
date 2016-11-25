@@ -15,3 +15,18 @@ Instrucciones:
       - http://www.misitio.com/whmcs/modules/gateways/callback/openpay.php
 
 5.- Realiza un par de pruebas en entorno testing con cada metodo de pago
+
+
+whmcs
+  |-- openpay.php
+  |-- openpay_oxxo.php
+  |-- openpay_spei.php
+  |-- modules
+      |-- gateways
+          |-- callbacks
+              |-- openpay.php
+          |-- openpay (contiene la libreria de openpay para PHP)
+          |-- openpay.php
+  |-- templates
+      |-- elnombredetutemplate (por ejemplo: default)
+          |-- clientareacreditcard-openpay.tpl
